@@ -16,4 +16,13 @@ object Settings: TSettings
   OnDestroy = FormDestroy
   PixelsPerInch = 96
   TextHeight = 13
+  object Button1: TButton
+    Left = 144
+    Top = 360
+    Width = 113
+    Height = 25
+    Caption = 'Close Application'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
 end
