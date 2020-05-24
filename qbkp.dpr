@@ -8,7 +8,8 @@ uses
 
 begin
   Application.Initialize;
-  Application.MainFormOnTaskbar := True;
+  Application.ShowMainForm := False;
+  Application.MainFormOnTaskbar := False;
   Application.CreateForm(TSettings, Settings);
   Application.Run;
 end.
